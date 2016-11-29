@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Restsuite]">
+  <test name="GitTest(failed)">
+    <classes>
+      <class name="com.test.TwitterUserTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testStatusCode"/>
+        </methods>
+      </class> <!-- com.test.TwitterUserTest -->
+      <class name="com.test.TwitterPostTest">
+        <methods>
+          <include name="testStatusCode"/>
+          <include name="beforeClass1"/>
+        </methods>
+      </class> <!-- com.test.TwitterPostTest -->
+      <class name="com.test.GitHubTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="testLogin"/>
+          <include name="testId"/>
+          <include name="beforeClass"/>
+          <include name="testStatusCode"/>
+        </methods>
+      </class> <!-- com.test.GitHubTest -->
+    </classes>
+  </test> <!-- GitTest(failed) -->
+</suite> <!-- Failed suite [Restsuite] -->
